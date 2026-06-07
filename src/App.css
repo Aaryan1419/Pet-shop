@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 50px;
+  background:#ff914d;
+  color:white;
+}
+
+.navbar ul{
+  display:flex;
+  list-style:none;
+  gap:20px;
+}
+
+.hero{
+  text-align:center;
+  padding:100px 20px;
+  background:linear-gradient(to right,#ffe29f,#ffa99f);
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+.hero button{
+  margin-top:20px;
+  padding:12px 25px;
+  border:none;
+  background:#ff914d;
+  color:white;
+  border-radius:5px;
+}
+
+.categories,
+.products,
+.testimonials{
+  padding:60px 40px;
+  text-align:center;
+}
+
+.category-container,
+.product-grid{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:30px;
+  flex-wrap:wrap;
+}
+
+.card,
+.product-card{
+  padding:25px;
+  width:220px;
+  background:white;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  border-radius:10px;
+}
+
+.review{
+  margin:20px auto;
+  max-width:500px;
+  padding:20px;
+  background:#f8f8f8;
+  border-radius:10px;
+}
+
+.footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
